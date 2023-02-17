@@ -80,6 +80,8 @@ header .logo img {
 .heading {
     padding-right: 10cm;
     margin: 5cm 5cm;
+    border: 2px solid white;
+    border-radius: 5px;
     /* border: 2px solid red; */
 }
 
