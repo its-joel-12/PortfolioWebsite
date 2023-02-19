@@ -1,43 +1,50 @@
+/* ------HOME PAGE STARTS--------------------------------------------------------------------- */
 body {
-    background-image: url("../Images/background2.jpg");
+    background: url("../Images/background2.jpg");
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-style: oblique;
     font-family: cursive, Geneva, Tahoma, sans-serif;
-    /* height: 100vh; */
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 * {
     padding: 0;
-    margin: 0px;
+    margin: 0;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
 }
 
 header {
     width: 100%;
-    height: 100px;
-    /* border: double 2px rgb(16, 214, 26); */
+    height: 10rem;
+
+}
+
+nav {
+    width: 100%;
 }
 
 .container {
-    max-width: max-content;
-    height: 30vh;
+    width: 100%;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0px auto 10px;
+    margin: 0 auto 0rem;
     position: absolute;
-    right: 40px;
 }
 
 header a {
     color: aqua;
     text-decoration: none;
-    font-size: 30px;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    padding-top: 50px;
+    font-size: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 5rem;
 }
 
 header a:hover {
@@ -48,51 +55,582 @@ header a:hover {
 }
 
 header .logo img {
-    height: 9em;
+    height: 15rem;
+}
+
+header .logo {
+    margin-top: 1rem;
+    margin-left: 4rem;
 }
 
 .right {
-    padding-top: 37px;
-    right: 0;
-    /* border: 2px solid red; */
+    padding-top: 3.6rem;
+    position: absolute;
+    right: 0rem;
+    margin-right: 6rem;
+}
+
+.left {
+    margin: -1rem 0 0;
 }
 
 .hero {
-    width: 7cm;
-    height: 7cm;
+    width: 36rem;
+    height: 30rem;
     float: right;
-    margin-top: 3cm;
-    margin-right: 3cm;
-    /* padding-left: 20px; */
-    /* border: 2px solid rgb(243, 57, 36); */
+    margin-top: 8.4rem;
+    margin-right: 8.4rem;
 }
 
 .hero img {
-    width: 6cm;
+    width: 23rem;
     position: absolute;
-    /* left: 0; */
-    /* right: 100px; */
-    border: 3px solid aqua;
+    border: .3rem solid aqua;
     border-radius: 10%;
-    /* margin-left: 20px; */
+    margin-left: 0rem;
+    margin-top: 4.1rem;
 }
 
 .heading {
-    padding-right: 10cm;
-    margin: 5cm 5cm;
-    /* border: 2px solid white;
-    border-radius: 5px; */
-    /* border: 2px solid red; */
+    padding-right: 36rem;
+    margin: 20rem auto;
+    width: 115rem;
 }
 
-.heading h1,
-p {
+.heading h1 {
+    font-size: 4rem;
     color: azure;
+
 }
 
 .heading p {
-    margin-top: 0.7cm;
-    font-size: 1.3vw;
-    font-style: oblique;
-    line-height: 1.7em;
+    color: azure;
+    margin-top: 0.5rem;
+    font-size: 2.1rem;
+    line-height: 3.6rem;
+    text-align: justify;
 }
+
+/* ------HOME PAGE ENDS-------------------------------------------------------------------------- */
+
+/* ------ABOUT PAGE STARTS----------------------------------------------------------------------- */
+.about {
+    /*HEADER*/
+    height: 6rem;
+    /* border: .2rem solid white; */
+}
+
+.containerAbout {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto 0rem;
+    position: absolute;
+}
+
+.about .logoAbout img {
+    height: 15rem;
+}
+
+.about a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0rem;
+}
+
+.about .logoAbout {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.rightAbout {
+    padding-top: 0rem;
+    position: absolute;
+    right: 0rem;
+    top: 1.5rem;
+    /* margin-top: 0.5rem; */
+    margin-right: 6rem;
+}
+
+.leftAbout {
+    /* border:.2rem solid rgb(21, 211, 68)  ; */
+    width: max-content;
+    height: auto;
+    margin-left: 2rem;
+    /* margin: -1rem 0 0; */
+
+}
+
+.leftAbout p {
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
+    /* margin-top: .5rem; */
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.about nav {
+    height: 8rem;
+    /* border: .2rem solid red; */
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.AContent {
+    /* clear: left; */
+    border: .2rem solid aqua;
+    width: 120rem;
+    height: 60rem;
+    margin: 6rem auto;
+    border-radius: 3rem;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.AboutWord {
+    /* border: .2rem solid white; */
+    width: max-content;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    color: rgb(255, 255, 255, 0.7);
+    /* text-decoration: wavy; */
+    font-style: normal;
+    /* font-stretch: expanded; */
+    /* text-align: center; */
+
+}
+
+.AContent h2 {
+    /* border: .2rem solid white; */
+    width: max-content;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 3.5rem;
+    /* text-align: center; */
+
+}
+
+.AContent .info {
+    /* border: .2rem solid white; */
+    color: white;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 15rem;
+    font-size: 2rem;
+}
+
+.info2 {
+    /* border: .2rem solid white; */
+    display: flex;
+    color: white;
+    font-size: 2.3rem;
+    margin-top: 2rem;
+    margin-left: 6.2rem;
+}
+
+.info2 .left {
+    /* border: .2rem solid white; */
+    margin-top: 0rem;
+}
+
+.info2 span {
+    /* font-display: ; */
+    /* font-style: ; */
+    font-weight: bolder;
+    /* font-style; */
+    text-transform: uppercase;
+}
+
+.info2 ul {
+    line-height: 6rem;
+}
+
+.info2 li {
+    list-style-type: square;
+}
+
+.info2 .right {
+    /* position: absolute;
+    top: 0; */
+    margin-right: 24rem;
+    /* border: .2rem solid rgb(179, 18, 18); */
+    width: 39rem;
+    height: 28rem;
+    /* margin-top: 0rem; */
+}
+
+.address {
+    /* border: .2rem solid rgb(179, 18, 18); */
+    width: fit-content;
+    margin-left: -7rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: -1rem;
+
+}
+
+.info2 img {
+    height: 20rem;
+    border-radius: 1rem;
+    /* transform: scale(11.5rem); */
+    /* zoom: 200rem; */
+}
+
+.locPic {
+    margin-top: 1.5rem;
+    margin-left: -9.5rem;
+}
+
+/* ------ABOUT PAGE ENDS----------------------------------------------------------------------- */
+
+/* ------RESUME PAGE STARTS-------------------------------------------------------------------- */
+.RContent {
+    /* display: block; */
+    display: flex;
+    border: .3rem solid white;
+    width: 120rem;
+    height: 150rem;
+    margin: 6rem auto;
+    /* border-radius: 3rem; */
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.RContent p {
+    text-align: center;
+    /* border: .2rem solid white; */
+    color: black;
+    font-size: 5rem;
+    line-height: 5rem;
+
+    font-weight: bolder;
+    margin-top: 0rem;
+}
+
+.RContent img {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    margin-left: 13.6rem;
+    margin-top: -20.6rem;
+    /* border: .3rem solid aqua; */
+    transform: scale(3);
+    border-top: .2rem solid aqua;
+    border-Left: .2rem solid aqua;
+    border-right: .2rem solid rgb(32, 30, 30);
+    border-bottom: .2rem solid rgb(32, 30, 30);
+    border-radius: 50%;
+    clear: both;
+    /* transform: rotate(-10%); */
+}
+
+.RContent .left {
+    width: 35rem;
+    height: 150rem;
+    background-color: rgb(0, 255, 255);
+    border: .4rem solid white;
+    margin-top: -0.3rem;
+    margin-left: -0.3rem;
+}
+
+.triangle {
+    margin-left: 0rem;
+    width: 34rem;
+    height: 34rem;
+    border-top: 15rem solid rgb(32, 30, 30);
+    border-left: 15rem solid rgb(32, 30, 30);
+    border-bottom: 15rem solid aqua;
+    border-right: 15rem solid aqua;
+    /* transform: rotate(90deg); */
+}
+
+.RContent .right {
+    width: 85rem;
+    height: 150rem;
+    /* border: .2rem solid lightcoral; */
+    /* margin-left: 0rem; */
+    position: absolute;
+    left: 54rem;
+}
+
+.RContent h1 {
+    color: white;
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+
+.edu {
+    width: 76rem;
+    height: 66rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border-top: .1rem solid white;
+    border-left: .3rem solid aqua;
+}
+
+.RContent .title1 {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin-top: 1rem;
+    margin-left: -1.2rem;
+    /* border: 0.2rem solid white; */
+    gap: 1.5rem;
+}
+
+.RContent i {
+    color: aqua;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.RContent .title1 h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.eduInfo1 li {
+    list-style-type: square;
+    color: white;
+    font-size: 2rem;
+}
+
+.eduInfo1 ul {
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+
+.RContent span {
+    font-weight: bolder;
+}
+
+.RContent .title2 h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.RContent .title2 {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin-top: 3rem;
+    margin-left: -1.2rem;
+    /* border: 0.2rem solid white; */
+    gap: 1.5rem;
+}
+
+.RContent .PLang {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+/* ------RESUME PAGE ENDS---------------------------------------------------------------------- */
+
+/* ------PORTFOLIO PAGE ENDS------------------------------------------------------------------- */
+.PContent {
+    /* display: block; */
+    /* display: flex; */
+    border: .3rem solid white;
+    width: 120rem;
+    height: 66rem;
+    margin: 6rem auto;
+    border-radius: 3rem;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.PortWord {
+    /* border: .2rem solid white; */
+    width: max-content;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    color: rgb(255, 255, 255, 0.7);
+    /* text-decoration: wavy; */
+    font-style: normal;
+    /* font-stretch: expanded; */
+    /* text-align: center; */
+
+}
+
+.PContent h2 {
+    /* border: .2rem solid white; */
+    width: max-content;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 3.5rem;
+    /* text-align: center; */
+
+}
+
+.proj1 {
+    border: 0.2rem solid white;
+    width: 109rem;
+    height: 19.5rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    border-radius: 3rem;
+}
+
+.proj1 h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.proj1 ul {
+    color: white;
+    font-size: 2.6rem;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+.proj1 span {
+    font-weight: bolder;
+}
+
+.proj1 a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* ------PORTFOLIO PAGE ENDS-------------------------------------------------------------------- */
+/* ------CONTACT PAGE STARTS-------------------------------------------------------------------- */
+.CContent {
+    /* display: block; */
+    /* display: flex; */
+    border: .3rem solid white;
+    width: 120rem;
+    height: 66rem;
+    margin: 6rem auto;
+    border-radius: 3rem;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.ContWord {
+    /* border: .2rem solid white; */
+    width: max-content;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    color: rgb(255, 255, 255, 0.7);
+    /* text-decoration: wavy; */
+    font-style: normal;
+    /* font-stretch: expanded; */
+    /* text-align: center; */
+
+}
+
+.CContent h2 {
+    /* border: .2rem solid white; */
+    width: max-content;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 3.5rem;
+    /* text-align: center; */
+
+}
+
+.row1 {
+    display: flex;
+    /* border: .2rem solid white; */
+    width: 112rem;
+    height: 21rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.row2 {
+    display: flex;
+    /* border: .2rem solid white; */
+    width: 112rem;
+    height: 21rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.social {
+    border: 0.2rem solid white;
+    width: 112rem;
+    height: 21rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+
+}
+
+.add {
+    border: 0.2rem solid white;
+    width: 112rem;
+    height: 21rem;
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+
+.email {
+    border: 0.2rem solid white;
+    width: 112rem;
+    height: 21rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+
+}
+
+.callMe {
+    border: 0.2rem solid white;
+    width: 112rem;
+    height: 21rem;
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+.social, .add, .email, .callMe {
+background-color: rgba(7, 6, 6, 0.555);
+border-radius: 3rem;
+}
+.row1 h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+.row1 p{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.row1 a{
+    color: white;
+    /* text-decoration: ; */
+}
+.add #add{
+font-size: 3rem;
+}
+
+.CContent .icons{
+    display: flex;
+    gap: 5rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+.CContent i{
+    color:white; 
+    font-size: 6rem;
+
+}
+.row2 h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+.row2 p{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+/* ------CONTACT PAGE ENDS-------------------------------------------------------------------- */
