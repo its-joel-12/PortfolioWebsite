@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../Images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-style: oblique;
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    width: 100%;
+}
+
+.right {
+    padding-top: 3.6rem;
+    position: absolute;
+    right: 0rem;
+    margin-right: 6rem;
+}
+
+.left {
+    margin: -1rem 0 0;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+
+}
+
+nav {
+    width: 100%;
+}
+
+header a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 5rem;
+}
+
+header a:hover {
+    color: rgb(78, 78, 243);
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: unset;
+}
+
+.about {
+    /*HEADER*/
+    height: 6rem;
+    /* border: .2rem solid white; */
+}
+
+.containerAbout {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto 0rem;
+    position: absolute;
+}
+
+.about .logoAbout img {
+    height: 15rem;
+}
+
+.about a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0rem;
+}
+
+.about .logoAbout {
+    display: none;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.rightAbout {
+    padding-top: 0rem;
+    position: absolute;
+    right: 0rem;
+    top: 1.5rem;
+    /* margin-top: 0.5rem; */
+    margin-right: 6rem;
+}
+
+.leftAbout {
+    /* border:.2rem solid rgb(21, 211, 68)  ; */
+    width: max-content;
+    height: auto;
+    margin-left: 2rem;
+    /* margin: -1rem 0 0; */
+
+}
+
+.leftAbout p {
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
+    /* margin-top: .5rem; */
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+.about nav {
+    height: 8rem;
+    /* border: .2rem solid red; */
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.RContent {
+    /* display: block; */
+    display: flex;
+    border: .3rem solid white;
+    width: 120rem;
+    height: 150rem;
+    margin: 6rem auto;
+    /* border-radius: 3rem; */
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.RContent p {
+    text-align: center;
+    /* border: .2rem solid white; */
+    color: black;
+    font-size: 5rem;
+    line-height: 5rem;
+
+    font-weight: bolder;
+    margin-top: 0rem;
+}
+
+.RContent img {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    margin-left: 13.6rem;
+    margin-top: -20.6rem;
+    /* border: .3rem solid aqua; */
+    transform: scale(3);
+    border-top: .2rem solid aqua;
+    border-Left: .2rem solid aqua;
+    border-right: .2rem solid rgb(32, 30, 30);
+    border-bottom: .2rem solid rgb(32, 30, 30);
+    border-radius: 50%;
+    clear: both;
+    /* transform: rotate(-10%); */
+}
+
+.RContent .left {
+    width: 35rem;
+    height: 150rem;
+    background-color: rgb(0, 255, 255);
+    border: .4rem solid white;
+    margin-top: -0.3rem;
+    margin-left: -0.3rem;
+}
+
+.triangle {
+    margin-left: 0rem;
+    width: 34rem;
+    height: 34rem;
+    border-top: 15rem solid rgb(32, 30, 30);
+    border-left: 15rem solid rgb(32, 30, 30);
+    border-bottom: 15rem solid aqua;
+    border-right: 15rem solid aqua;
+    /* transform: rotate(90deg); */
+}
+
+.RContent .right {
+    width: 85rem;
+    height: 150rem;
+    /* border: .2rem solid lightcoral; */
+    /* margin-left: 0rem; */
+    position: absolute;
+    left: 54rem;
+}
+
+.RContent h1 {
+    color: white;
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+
+.edu {
+    width: 76rem;
+    height: 66rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border-top: .1rem solid white;
+    border-left: .3rem solid aqua;
+}
+
+.RContent .title1 {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin-top: 1rem;
+    margin-left: -1.2rem;
+    /* border: 0.2rem solid white; */
+    gap: 1.5rem;
+}
+
+.RContent i {
+    color: aqua;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.RContent .title1 h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.eduInfo1 li {
+    list-style-type: square;
+    color: white;
+    font-size: 2rem;
+}
+
+.eduInfo1 ul {
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+
+.RContent span {
+    font-weight: bolder;
+}
+
+.RContent .title2 h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.RContent .title2 {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin-top: 3rem;
+    margin-left: -1.2rem;
+    /* border: 0.2rem solid white; */
+    gap: 1.5rem;
+}
+
+.RContent .PLang {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
